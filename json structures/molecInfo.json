@@ -14,10 +14,6 @@
         "otherinterection" : ["a","b","c","d"],
         "dosage" : "test dosage",
         "food" : ["a","b","c","d"],
-        "listofcontradiction" : [
-            {"value": "name1", "text": "text 1"},
-            {"value": "name2", "text": "text2"},
-            {"value": "name3", "text": "text 3"}
-        ],
+        "listofcontradiction" : ["a","b","c","d"],
         "source": ["a","b","c","d"]
     }
