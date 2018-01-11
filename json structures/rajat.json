@@ -22,7 +22,7 @@ types
 
 like
 
-"query" : {
+{
 "molecule" : "abacavir",
 "type" : "info"
 
