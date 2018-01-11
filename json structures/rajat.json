@@ -28,10 +28,11 @@
               "strength": "1",
               "packaging": "1",
               "price": "1",
-              "potent_substance": [
+              "potent_substance": ["a","b","c"
                 {
                   "name": "1"
                 }
+
               ]
             }
           ]
