@@ -162,3 +162,17 @@
     }
   ]
 }
+
+
+/searching
+
+[ [ { molecule_name: 'Abafungin' },
+  { molecule_name: 'Abaloparatide' },
+  { molecule_name: 'Abamectin' },
+  { molecule_name: 'Abarelix' },
+  { molecule_name: 'Abatacept' },
+  { molecule_name: 'Abciximab' },
+  { molecule_name: 'Abetimus' },
+  { molecule_name: 'Abiraterone' },
+  { molecule_name: 'AbobotulinumtoxinA' },
+  { molecule_name: 'Acadesine' } ] ]
