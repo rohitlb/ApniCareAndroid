@@ -63,3 +63,28 @@ type can be info,brands,combinations
 /searching
 
 [[{"molecule_name":"Abafungin"},{"molecule_name":"Abaloparatide"},{"molecule_name":"Abamectin"},{"molecule_name":"Abarelix"},{"molecule_name":"Abatacept"},{"molecule_name":"Abciximab"},{"molecule_name":"Abetimus"},{"molecule_name":"Abiraterone"},{"molecule_name":"AbobotulinumtoxinA"},{"molecule_name":"Acadesine"}]]
+
+
+/information
+
+[
+{
+"_id": "5a566f2af58a9f04e8beaedf",
+"molecule_name": "a",
+"drug_categories": "a",
+"description": "a",
+"absorption": "a",
+"distribution": "a",
+"metabolism": "a",
+"excretion": "a",
+"side_effect": "a",
+"precaution": "a",
+"drug_interaction": "aa",
+"food_interaction": "a",
+"food": "a",
+"__v": 0,
+"contraindications": [
+
+]
+}
+]
