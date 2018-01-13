@@ -84,9 +84,9 @@ app.get('/information', function (req,res) {
 
 
 app.post('/information', function (req,res) {
-    var a = req.body.molecule;
-    console.log(a);
-    result = [
+    var a = req.query.molecule;
+    //console.log(typeof a);
+    test = [
         {
             "_id": "5a59a0ccf6ebb40550f29e16",
             "molecule_name": "q",
@@ -114,7 +114,8 @@ app.post('/information', function (req,res) {
                 {subhead : "Mohit"  , info : "Raj"}
             ],
             "other_drug_interaction": [
-                "Rohit" , "Rajat" , "Pranjal"
+                {subhead : "Rohit"  , info : "Rajat"},
+                {subhead : "Mohit"  , info : "Raj"}
             ],
             "precaution": [
                 "q","Rohit" , "Rajat" , "Pranjal"
@@ -128,7 +129,10 @@ app.post('/information', function (req,res) {
         }
     ];
 
-res.send(result)
+    //objects = JSON.parse(test);
+    console.log(typeof test);
+
+    res.send(test)
 });
 
 
