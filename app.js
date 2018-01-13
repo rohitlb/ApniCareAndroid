@@ -123,9 +123,7 @@ app.post('/information', function (req,res) {
             "side_effect": [
                 "q","Rohit" , "Rajat" , "Pranjal"
             ],
-            "description": [
-                "q","Rohit" , "Rajat" , "Pranjal"
-            ]
+            "description": "q"
         }
     ];
 
