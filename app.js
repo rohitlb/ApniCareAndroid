@@ -74,6 +74,56 @@ app.get('/', function (req,res) {
     });
 });
 
+app.post('/information', function (req,res) {
+   res.send(
+
+           [
+           {
+               "_id": "5a59a0ccf6ebb40550f29e16",
+               "molecule_name": "q",
+               "drug_categories": "q",
+               "absorption": "q",
+               "distribution": "q",
+               "metabolism": "qq",
+               "excretion": "q",
+               "food": "q",
+               "__v": 0,
+               "source": [ "Rohit" , "Rajat" , "Pranjal"
+
+               ],
+               "contraindications": [ {subhead : "Rohit"  , info : "Rajat"},
+                   {subhead : "Mohit"  , info : "Raj"}
+
+               ],
+               "dosage": [
+                   {subhead : "Rohit"  , info : "Rajat"},
+                   {subhead : "Mohit"  , info : "Raj"}
+
+               ],
+               "other_interaction": [
+                   {subhead : "Rohit"  , info : "Rajat"},
+                   {subhead : "Mohit"  , info : "Raj"}
+               ],
+               "other_drug_interaction": [
+                   "Rohit" , "Rajat" , "Pranjal"
+               ],
+               "precaution": [
+                   "q","Rohit" , "Rajat" , "Pranjal"
+               ],
+               "side_effect": [
+                   "q","Rohit" , "Rajat" , "Pranjal"
+               ],
+               "description": [
+                   "q","Rohit" , "Rajat" , "Pranjal"
+               ]
+           }
+           ]
+
+
+   )
+});
+
+
 app.listen(app.get('port'), function () {
     console.log('server connected to http:localhost:' + app.get('port'));
 });
