@@ -69,12 +69,12 @@ type can be info,brands,combinations
 
 [
 {
-"_id": "5a58bc2e28b9d34658cda041",
+"_id": "5a59a0ccf6ebb40550f29e16",
 "molecule_name": "q",
 "drug_categories": "q",
 "absorption": "q",
 "distribution": "q",
-"metabolism": "q",
+"metabolism": "qq",
 "excretion": "q",
 "food": "q",
 "__v": 0,
@@ -87,46 +87,11 @@ type can be info,brands,combinations
 "dosage": [
 
 ],
-"food_interaction": [
-"q"
-],
-"drug_interaction": [
-""
-],
-"precaution": [
-"qq"
-],
-"side_effect": [
-"q"
-],
-"description": [
-"q"
-]
-},
-{
-"_id": "5a58cacf0740a04288caeedf",
-"molecule_name": "q",
-"drug_categories": "q",
-"absorption": "q",
-"distribution": "q",
-"metabolism": "q",
-"excretion": "q",
-"food": "q",
-"__v": 0,
-"source": [
+"other_interaction": [
 
 ],
-"contraindications": [
+"other_drug_interaction": [
 
-],
-"dosage": [
-
-],
-"food_interaction": [
-"q"
-],
-"drug_interaction": [
-"q"
 ],
 "precaution": [
 "q"
