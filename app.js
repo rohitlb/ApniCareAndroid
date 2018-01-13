@@ -1,10 +1,13 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var path = require('path');
 
 var app = express();
 
 app.set('port',9000);
 app.use(bodyParser.json());
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
 
 app.get('/disease', function (req,res) {
     console.log("app");
@@ -74,53 +77,58 @@ app.get('/', function (req,res) {
     });
 });
 
+
+app.get('/information', function (req,res) {
+    res.render('information');
+});
+
+
 app.post('/information', function (req,res) {
-   res.send(
+    var a = req.body.molecule;
+    console.log(a);
+    result = [
+        {
+            "_id": "5a59a0ccf6ebb40550f29e16",
+            "molecule_name": "q",
+            "drug_categories": "q",
+            "absorption": "q",
+            "distribution": "q",
+            "metabolism": "qq",
+            "excretion": "q",
+            "food": "q",
+            "__v": 0,
+            "source": [ "Rohit" , "Rajat" , "Pranjal"
 
-           [
-           {
-               "_id": "5a59a0ccf6ebb40550f29e16",
-               "molecule_name": "q",
-               "drug_categories": "q",
-               "absorption": "q",
-               "distribution": "q",
-               "metabolism": "qq",
-               "excretion": "q",
-               "food": "q",
-               "__v": 0,
-               "source": [ "Rohit" , "Rajat" , "Pranjal"
+            ],
+            "contraindications": [ {subhead : "Rohit"  , info : "Rajat"},
+                {subhead : "Mohit"  , info : "Raj"}
 
-               ],
-               "contraindications": [ {subhead : "Rohit"  , info : "Rajat"},
-                   {subhead : "Mohit"  , info : "Raj"}
+            ],
+            "dosage": [
+                {subhead : "Rohit"  , info : "Rajat"},
+                {subhead : "Mohit"  , info : "Raj"}
 
-               ],
-               "dosage": [
-                   {subhead : "Rohit"  , info : "Rajat"},
-                   {subhead : "Mohit"  , info : "Raj"}
+            ],
+            "other_interaction": [
+                {subhead : "Rohit"  , info : "Rajat"},
+                {subhead : "Mohit"  , info : "Raj"}
+            ],
+            "other_drug_interaction": [
+                "Rohit" , "Rajat" , "Pranjal"
+            ],
+            "precaution": [
+                "q","Rohit" , "Rajat" , "Pranjal"
+            ],
+            "side_effect": [
+                "q","Rohit" , "Rajat" , "Pranjal"
+            ],
+            "description": [
+                "q","Rohit" , "Rajat" , "Pranjal"
+            ]
+        }
+    ];
 
-               ],
-               "other_interaction": [
-                   {subhead : "Rohit"  , info : "Rajat"},
-                   {subhead : "Mohit"  , info : "Raj"}
-               ],
-               "other_drug_interaction": [
-                   "Rohit" , "Rajat" , "Pranjal"
-               ],
-               "precaution": [
-                   "q","Rohit" , "Rajat" , "Pranjal"
-               ],
-               "side_effect": [
-                   "q","Rohit" , "Rajat" , "Pranjal"
-               ],
-               "description": [
-                   "q","Rohit" , "Rajat" , "Pranjal"
-               ]
-           }
-           ]
-
-
-   )
+res.send(result)
 });
 
 
