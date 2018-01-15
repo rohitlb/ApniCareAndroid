@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Contact_us</string>
+
+    <string name="drug_info">Drug Information</string>
+    <string name="query">Query</string>
+    <string name="disease_info">Disease Information</string>
+    <string name="molecule_info">Molecule Information</string>
+    <string name="refer">Refer Friend</string>
+
+</resources>

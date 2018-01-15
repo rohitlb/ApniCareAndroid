@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cyrus.contact_us.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/apni_care_icon"
+                android:id="@+id/apni_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact us"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/query">
+
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/query"
+        android:textColor="#000"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+         android:id="@+id/query_text"       />
+
+        <ImageView
+            android:id="@+id/right_one"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/right"
+            android:layout_marginTop="28dp"
+            android:layout_marginStart="220dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#A9A9A9"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/drug">
+
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drug_info"
+        android:textColor="#000"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+         android:id="@+id/drug_text"     />
+
+        <ImageView
+            android:id="@+id/right_two"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/right"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="72dp"/>
+
+
+</LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#A9A9A9"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/disease">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/disease_info"
+                android:textColor="#000"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:id="@+id/disease_text"/>
+
+            <ImageView
+                android:id="@+id/right_three"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/right"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#A9A9A9"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/molecule">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/molecule_info"
+                android:textColor="#000"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:id="@+id/molecule_text"/>
+
+            <ImageView
+                android:id="@+id/right_four"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/right"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#A9A9A9"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/refer">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/refer"
+                android:textColor="#000"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:id="@+id/refer_text"/>
+
+            <ImageView
+                android:id="@+id/right_five"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/right"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="140dp"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#A9A9A9"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
