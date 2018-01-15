@@ -1,13 +1,65 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var session = require('express-session');
+var mongoose = require('mongoose');
+
+
+var mongoDBStore = require('connect-mongodb-session')(session);
+
 var path = require('path');
 
 var app = express();
+//sub
 
 app.set('port',9000);
 app.use(bodyParser.json());
+
+var Needhelp = require('./model/needhelp');
+
+// it is used to recieve data
+app.use(bodyParser.urlencoded({extended : false}));
+
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+
+var store = new mongoDBStore({
+    uri : 'mongodb://localhost/ApniCare',
+    collection : 'mySessions'
+});
+
+
+store.on('error',function (error) {
+    assert.ifError(error);
+    assert.ok(false);
+});
+
+app.use(session({
+    secret : 'keyboard cat',
+    cookie : {maxAge : 1000* 60 * 60 * 24 * 7},
+    store : store,
+    resave : false,
+    saveUninitialized : true
+}));
+
+app.post('/needhelp' , function (req,res) {
+    var number = req.body.number;
+    var subject = req.body.subject;
+    var contact_message = req.body.contact_message;
+
+    var needhelp = new Needhelp({
+        subject : subject,
+        contact_message : contact_message
+    });
+
+    needhelp.save(function (err, result) {
+        if (err) {
+            console.log(err);
+        } else {
+            res.send("We will contact you soon")
+        }
+    });
+});
 
 app.get('/disease', function (req,res) {
     console.log("app");
@@ -77,11 +129,25 @@ app.get('/', function (req,res) {
     });
 });
 
-
-app.get('/information', function (req,res) {
+app.get('/teststring', function (req,res) {
     res.render('information');
 });
 
+app.post('/teststring', function (req,res) {
+    var names = req.body.molecules;
+
+    //var names = 'test a ; test b ; test c ; tes d ; rohit ; rupesh ; ritu ';
+
+    console.log(names);
+
+    var re = /\s*;\s*/;
+    var nameList = names.split(re);
+
+    console.log(nameList);
+
+
+    res.end();
+});
 
 app.post('/information', function (req,res) {
     var a = req.query.molecule;
@@ -134,6 +200,17 @@ app.post('/information', function (req,res) {
 });
 
 
-app.listen(app.get('port'), function () {
-    console.log('server connected to http:localhost:' + app.get('port'));
+//data base connection and opening port
+var db = 'mongodb://localhost/ApniCare';
+mongoose.connect(db, {useMongoClient: true});
+
+
+//=============================Start server========================
+//connecting database and starting server
+var database = mongoose.connection;
+database.on('open', function () {
+    console.log("database is connected");
+    app.listen(app.get('port'), function () {
+        console.log('server connected to http:localhost:' + app.get('port'));
+    });
 });
