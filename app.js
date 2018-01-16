@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 
 var Needhelp = require('./model/needhelp');
 
-// it is used to recieve data
+// it is used to recieve data from frontend or app
 app.use(bodyParser.urlencoded({extended : false}));
 
 
