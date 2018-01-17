@@ -200,6 +200,47 @@ app.post('/information', function (req,res) {
 });
 
 
+
+//*************************************Feedback and needhelp*******************************************************************
+
+app.post('/feedback' , function (req,res) {
+    var usefulness = req.body.usefulness;
+    var suggestion = req.body.suggestion;
+
+    var feedback = new Feedback({
+        usefulness : usefulness,
+        suggestion : suggestion
+    });
+
+    feedback.save(function (err, result) {
+        if (err) {
+            console.log(err);
+        } else {
+            res.send("Thnx for the feedback")
+        }
+    });
+});
+
+app.post('/needhelp' , function (req,res) {
+    var subject = req.body.subject;
+    var contact_message = req.body.contact_message;
+
+    var needhelp = new Needhelp({
+        //here user ID should be added
+        subject : subject,
+        contact_message : contact_message
+    });
+
+    needhelp.save(function (err, result) {
+        if (err) {
+            console.log(err);
+        } else {
+            res.send("We will contact you soon")
+        }
+    });
+});
+
+
 //data base connection and opening port
 var db = 'mongodb://localhost/ApniCare';
 mongoose.connect(db, {useMongoClient: true});
