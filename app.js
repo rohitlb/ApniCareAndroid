@@ -199,9 +199,10 @@ app.post('/information', function (req,res) {
     res.send(test)
 });
 
-
-
 //*************************************Feedback and needhelp*******************************************************************
+
+// fields 1 usefulness  (here user will mention the usefulness of the  site (bad ,good , very good , best etc) )
+// 2 suggestion (text written by user .... the main feedback)
 
 app.post('/feedback' , function (req,res) {
     var usefulness = req.body.usefulness;
@@ -220,6 +221,9 @@ app.post('/feedback' , function (req,res) {
         }
     });
 });
+
+// field 1 = subject => subject of the help
+// filed 2 = contact_message => text, help the user needs
 
 app.post('/needhelp' , function (req,res) {
     var subject = req.body.subject;
