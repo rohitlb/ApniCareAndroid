@@ -29,3 +29,30 @@ key for all => search
  filter => where
  search => what
  */
+
+
+[{
+    "molecules": [{
+        "molecule_name": "q"
+    }]
+}, {
+    "categories": [{
+        "categories": "q"
+    }]
+}, {
+    "brands": [{
+        "brand_name": "q"
+    }]
+}, {
+    "diseases": [{
+        "disease_name": "q"
+    }]
+}, {
+    "organs": [{
+        "organs": "q"
+    }]
+}, {
+    "symptoms": [{
+        "symptoms": "q"
+    }]
+}]
