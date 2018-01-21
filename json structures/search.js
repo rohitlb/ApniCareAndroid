@@ -124,3 +124,46 @@ key for all => search
 	}
 }
  */
+
+
+
+
+/*
+/search_dos
+
+{
+	"search_dos": {
+		"diseases": [{
+			"disease_name": "Autoimmune"
+		}, {
+			"disease_name": "alpha"
+		}],
+		"organs": [],
+		"symptoms": [{
+			"symptoms": "alpha"
+		}]
+	}
+}
+
+
+
+ */
+
+
+/*
+
+
+/filtersearch
+
+filter search keys
+
+molecule_name
+categories
+brand_name
+disease_name
+organs
+symptoms
+
+
+
+ */
