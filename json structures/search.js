@@ -30,29 +30,35 @@ key for all => search
  search => what
  */
 
+/*
 
-[{
-    "molecules": [{
-        "molecule_name": "q"
-    }]
-}, {
-    "categories": [{
-        "categories": "q"
-    }]
-}, {
-    "brands": [{
-        "brand_name": "q"
-    }]
-}, {
-    "diseases": [{
-        "disease_name": "q"
-    }]
-}, {
-    "organs": [{
-        "organs": "q"
-    }]
-}, {
-    "symptoms": [{
-        "symptoms": "q"
-    }]
-}]
+
+
+    "result":{
+
+            [{
+                 [{
+                    "molecule_name": "q"
+                }]
+            }, {
+                 [{
+                    "categories": "q"
+                }]
+            }, {
+                 [{
+                    "brand_name": "q"
+                }]
+            }, {
+                 [{
+                    "disease_name": "q"
+                }]
+            }, {
+                 [{
+                    "organs": "q"
+                }]
+            }, {
+                 [{
+                    "symptoms": "q"
+                }]
+            }]
+   }
