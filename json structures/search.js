@@ -62,3 +62,65 @@ key for all => search
                 }]
             }]
    }
+
+
+   /search_mbc
+
+
+
+   */
+
+/*
+
+{
+	"search_mbc": {
+		"molecules": [{
+			"molecule_name": "Abiraterone"
+		}, {
+			"molecule_name": "Aceclofenac"
+		}],
+		"categories": [{
+			"categories": "Anti-bacterial"
+		}, {
+			"categories": "Anti-bacterial"
+		}, {
+			"categories": "Anti-bacterial"
+		}, {
+			"categories": "Anti-bacterial"
+		}, {
+			"categories": "Anti-bacterial"
+		}, {
+			"categories": "Anti-bacterial"
+		}, {
+			"categories": "Anti-bacterial"
+		}, {
+			"categories": "Anti-bacterial"
+		}, {
+			"categories": "Anti-bacterial"
+		}, {
+			"categories": "Antiboitic"
+		}],
+		"brands": [{
+			"brand_name": "A - PLUS"
+		}, {
+			"brand_name": "AALCETAMOL"
+		}, {
+			"brand_name": "ABATE"
+		}, {
+			"brand_name": "ABATE-SP"
+		}, {
+			"brand_name": "ABATITOR"
+		}, {
+			"brand_name": "ABDAL-SP"
+		}, {
+			"brand_name": "ABIONE"
+		}, {
+			"brand_name": "ABIRAPRO"
+		}, {
+			"brand_name": "ABIRATAS"
+		}, {
+			"brand_name": "ABRITIGA"
+		}]
+	}
+}
+ */
