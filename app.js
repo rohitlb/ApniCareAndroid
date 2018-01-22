@@ -133,19 +133,13 @@ app.get('/teststring', function (req,res) {
     res.render('information');
 });
 
+// for converting string to array  (differed by , )
 app.post('/teststring', function (req,res) {
     var names = req.body.molecules;
-
-    //var names = 'test a ; test b ; test c ; tes d ; rohit ; rupesh ; ritu ';
-
     console.log(names);
-
-    var re = /\s*;\s*/;
+    var re = /\s*,\s*/;
     var nameList = names.split(re);
-
     console.log(nameList);
-
-
     res.end();
 });
 
@@ -246,6 +240,14 @@ app.post('/needhelp' , function (req,res) {
             res.send({status: "success", message: "We will Contact you soon"});
         }
     });
+});
+
+
+app.get('testregex', function (req,res) {
+   var raw = res.body.regexelement;
+   var test = req.body.replace(raw);
+
+
 });
 
 
