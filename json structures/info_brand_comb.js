@@ -46,3 +46,100 @@ String lines[] = string.split("\\r?\\n");
 	}]
 }
  */
+
+
+
+/*
+hit /formolecule
+keys molecule , nskip ,page
+page means you what want    brands
+here molecules = Aceclofenac
+
+{
+	"message": "molecule brand",
+	"data": [{
+		"results": {
+			"brands_id": [{
+				"brand_name": "AALCETAMOL"
+			}],
+			"potent_substance": [{
+				"molecule_strength": "1000 mg"
+			}]
+		}
+	}, {
+		"results": {
+			"brands_id": [{
+				"brand_name": "ZERODOL"
+			}],
+			"potent_substance": [{
+				"molecule_strength": "100 mg"
+			}]
+		}
+	}, {
+		"results": {
+			"brands_id": [{
+				"brand_name": "ZERODOL"
+			}],
+			"potent_substance": [{
+				"molecule_strength": "150 mg"
+			}]
+		}
+	}, {
+		"results": {
+			"brands_id": [{
+				"brand_name": "ZERODOL CR"
+			}],
+			"potent_substance": [{
+				"molecule_strength": "200 mg"
+			}]
+		}
+	}, {
+		"results": {
+			"brands_id": [{
+				"brand_name": "ZIX"
+			}],
+			"potent_substance": [{
+				"molecule_strength": "100 mg"
+			}]
+		}
+	}, {
+		"results": {
+			"brands_id": [{
+				"brand_name": "ABATE"
+			}],
+			"potent_substance": [{
+				"molecule_strength": "200 mg"
+			}]
+		}
+	}, {
+		"results": {
+			"brands_id": [{
+				"brand_name": "AC"
+			}],
+			"potent_substance": [{
+				"molecule_strength": "100 mg"
+			}]
+		}
+	}, {
+		"results": {
+			"brands_id": [{
+				"brand_name": "ACCEPT"
+			}],
+			"potent_substance": [{
+				"molecule_strength": "200 mg"
+			}]
+		}
+	}, {
+		"results": {
+			"brands_id": [{
+				"brand_name": "ACEZ"
+			}],
+			"potent_substance": [{
+				"molecule_strength": "100 mg"
+			}]
+		}
+	}]
+}
+
+
+ */
