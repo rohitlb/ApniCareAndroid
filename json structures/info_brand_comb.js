@@ -3,6 +3,9 @@ hit /formolecule
 keys molecule , nskip ,page
 page means you want info | brands | combination
 
+string to array
+function
+String lines[] = string.split("\\r?\\n");
 
 {
 	"message": "molecule information",
