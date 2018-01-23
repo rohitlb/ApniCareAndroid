@@ -59,87 +59,270 @@ here molecules = Aceclofenac
 	"message": "molecule brand",
 	"data": [{
 		"results": {
+			"strength": "1000",
+			"strength_unit": "mg",
+			"packaging": "100 ml",
+			"price": "257.13",
+			"dose_taken": "Empty Food",
+			"dose_timing": "BD",
+			"warnings": "Not to be used in pregnancy",
+			"prescription": "Needed",
 			"brands_id": [{
-				"brand_name": "AALCETAMOL"
+				"brand_name": "AALCETAMOL",
+				"categories": "NSAID`s",
+				"types": "Branded",
+				"company_id": [{
+					"company_name": "Aaltramed Healthcare",
+					"brand_id": ["5a64513ee1609631e8fdf520"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Infusion",
+					"strength_id": ["5a64513ee1609631e8fdf51d"]
+				}],
+				"primarily_used_for": ["Joint Pain"]
 			}],
 			"potent_substance": [{
+				"name": "Aceclofenac",
 				"molecule_strength": "1000 mg"
 			}]
 		}
 	}, {
 		"results": {
+			"strength": "100",
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "30",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
 			"brands_id": [{
-				"brand_name": "ZERODOL"
+				"brand_name": "ZERODOL",
+				"categories": "NSAID`s",
+				"types": "",
+				"company_id": [{
+					"company_name": "Ipca",
+					"brand_id": ["5a6451f5e1609631e8fdf525", "5a6456c7e1609631e8fdf552"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a6451f5e1609631e8fdf522"]
+				}, {
+					"dosage_form": "Injection",
+					"strength_id": ["5a64523de1609631e8fdf52c", "5a645666e1609631e8fdf54d"]
+				}],
+				"primarily_used_for": [""]
 			}],
 			"potent_substance": [{
+				"name": "Aceclofenac",
 				"molecule_strength": "100 mg"
 			}]
 		}
 	}, {
 		"results": {
+			"strength_unit": "mg",
+			"packaging": "1 ml",
+			"price": "15",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
 			"brands_id": [{
-				"brand_name": "ZERODOL"
+				"brand_name": "ZERODOL",
+				"categories": "NSAID`s",
+				"types": "",
+				"company_id": [{
+					"company_name": "Ipca",
+					"brand_id": ["5a6451f5e1609631e8fdf525", "5a6456c7e1609631e8fdf552"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a6451f5e1609631e8fdf522"]
+				}, {
+					"dosage_form": "Injection",
+					"strength_id": ["5a64523de1609631e8fdf52c", "5a645666e1609631e8fdf54d"]
+				}],
+				"primarily_used_for": [""]
 			}],
 			"potent_substance": [{
+				"name": "Aceclofenac",
 				"molecule_strength": "150 mg"
 			}]
 		}
 	}, {
 		"results": {
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "50",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
 			"brands_id": [{
-				"brand_name": "ZERODOL CR"
+				"brand_name": "ZERODOL CR",
+				"categories": "NSAID`s",
+				"types": "",
+				"company_id": [{
+					"company_name": "Ipca",
+					"brand_id": ["5a6451f5e1609631e8fdf525", "5a6456c7e1609631e8fdf552"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a6456c7e1609631e8fdf54f"]
+				}],
+				"primarily_used_for": [""]
 			}],
 			"potent_substance": [{
+				"name": "Aceclofenac",
 				"molecule_strength": "200 mg"
 			}]
 		}
 	}, {
 		"results": {
+			"strength": "100",
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "17.90",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
 			"brands_id": [{
-				"brand_name": "ZIX"
+				"brand_name": "ZIX",
+				"categories": "NSAID`s",
+				"types": "",
+				"company_id": [{
+					"company_name": "Jenburkt",
+					"brand_id": ["5a645723e1609631e8fdf55a"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a645723e1609631e8fdf557"]
+				}],
+				"primarily_used_for": [""]
 			}],
 			"potent_substance": [{
+				"name": "Aceclofenac",
 				"molecule_strength": "100 mg"
 			}]
 		}
 	}, {
 		"results": {
+			"strength": "200",
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "46",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
 			"brands_id": [{
-				"brand_name": "ABATE"
+				"brand_name": "ABATE",
+				"categories": "NSAID`s",
+				"types": "",
+				"company_id": [{
+					"company_name": "Genesis",
+					"brand_id": ["5a645772e1609631e8fdf55f", "5a645bdbe1609631e8fdf5b8"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a645772e1609631e8fdf55c"]
+				}],
+				"primarily_used_for": [""]
 			}],
 			"potent_substance": [{
+				"name": "Aceclofenac",
 				"molecule_strength": "200 mg"
 			}]
 		}
 	}, {
 		"results": {
+			"strength": "100",
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "35",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
 			"brands_id": [{
-				"brand_name": "AC"
+				"brand_name": "AC",
+				"categories": "NSAID`s",
+				"types": "",
+				"company_id": [{
+					"company_name": "MMC Health",
+					"brand_id": ["5a6457d5e1609631e8fdf567"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a6457d5e1609631e8fdf561"]
+				}],
+				"primarily_used_for": [""]
 			}],
 			"potent_substance": [{
+				"name": "Aceclofenac",
 				"molecule_strength": "100 mg"
 			}]
 		}
 	}, {
 		"results": {
+			"strength": "200",
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "60",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
 			"brands_id": [{
-				"brand_name": "ACCEPT"
+				"brand_name": "ACCEPT",
+				"categories": "NSAID`s",
+				"types": "",
+				"company_id": [{
+					"company_name": "Vivid Labs",
+					"brand_id": ["5a6458e3e1609631e8fdf582"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a6458e3e1609631e8fdf57f"]
+				}],
+				"primarily_used_for": [""]
 			}],
 			"potent_substance": [{
+				"name": "Aceclofenac",
 				"molecule_strength": "200 mg"
 			}]
 		}
 	}, {
 		"results": {
+			"strength": "100",
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "35.58",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
 			"brands_id": [{
-				"brand_name": "ACEZ"
+				"brand_name": "ACEZ",
+				"categories": "NSAID`s",
+				"types": "",
+				"company_id": [{
+					"company_name": "Crest Pharma",
+					"brand_id": ["5a64593de1609631e8fdf591"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a64593de1609631e8fdf58e"]
+				}],
+				"primarily_used_for": [""]
 			}],
 			"potent_substance": [{
+				"name": "Aceclofenac",
 				"molecule_strength": "100 mg"
 			}]
 		}
 	}]
 }
-
 
  */
