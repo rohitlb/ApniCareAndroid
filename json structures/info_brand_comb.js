@@ -82,10 +82,10 @@ here molecules = Aceclofenac
 				}],
 				"primarily_used_for": ["Joint Pain"]
 			}],
-			"potent_substance": [{
-				"name": "Aceclofenac",
-				"molecule_strength": "1000 mg"
-			}]
+			"potent_substance": {
+				"name": ["Aceclofenac","guu","guu"],
+				"molecule_strength": ["1000 mg","fuk","fku"]
+			}
 		}
 	}, {
 		"results": {
@@ -588,12 +588,11 @@ page means you want  combination
 					"prescription": "",
 					"__v": 0,
 					"brands_id": ["5a6456c7e1609631e8fdf552"],
-					"potent_substance": [{
+					"potent_substance": {
 						"name": "Aceclofenac",
 						"molecule_strength": "200 mg",
 						"_id": "5a6456c7e1609631e8fdf550"
-					}]
-				}]
+					},
 			}],
 			"primarily_used_for": [""]
 		}],
