@@ -812,3 +812,140 @@ page means you want  combination
 	}]
 }
 */
+
+//similarbrands
+
+/*
+hit to /similarbrands
+molecule = Aceclofenac
+strength = 100 mg
+nskip = marzi bhai jo rakhle
+
+{
+	"message": "similarbrands",
+	"data": [{
+		"results": {
+			"strength": "100",
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "30",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
+			"brands_id": [{
+				"brand_name": "ZERODOL",
+				"categories": "",
+				"types": "",
+				"company_id": [{
+					"company_name": "Ipca",
+					"brand_id": ["5a689f46c649871b28fc868c", "5a68a17ac649871b28fc869b"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a689f44c649871b28fc868a", "5a68a180c649871b28fc869c"]
+				}, {
+					"dosage_form": "Injection",
+					"strength_id": ["5a689fb9c649871b28fc868f"]
+				}],
+				"primarily_used_for": [""]
+			}],
+			"potent_substance": {
+				"molecule_strength": ["100 mg"],
+				"name": ["Aceclofenac"]
+			}
+		}
+	}, {
+		"results": {
+			"strength": "100 mg",
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "17.90",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
+			"brands_id": [{
+				"brand_name": "ZIX",
+				"categories": "",
+				"types": "",
+				"company_id": [{
+					"company_name": "Jenburkt",
+					"brand_id": ["5a68a211c649871b28fc86ab"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a68a211c649871b28fc86a9"]
+				}],
+				"primarily_used_for": [""]
+			}],
+			"potent_substance": {
+				"molecule_strength": ["100 mg"],
+				"name": ["Aceclofenac"]
+			}
+		}
+	}, {
+		"results": {
+			"strength": "100 mg",
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "23",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
+			"brands_id": [{
+				"brand_name": "ZOFEN",
+				"categories": "",
+				"types": "",
+				"company_id": [{
+					"company_name": "Zota Pharma",
+					"brand_id": ["5a68a24bc649871b28fc86af"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a68a24bc649871b28fc86ad"]
+				}],
+				"primarily_used_for": [""]
+			}],
+			"potent_substance": {
+				"molecule_strength": ["100 mg"],
+				"name": ["Aceclofenac"]
+			}
+		}
+	}, {
+		"results": {
+			"strength": "100 mg",
+			"strength_unit": "mg",
+			"packaging": "10",
+			"price": "46.40",
+			"dose_taken": "",
+			"dose_timing": "",
+			"warnings": "",
+			"prescription": "",
+			"brands_id": [{
+				"brand_name": "ACECLO PLUS",
+				"categories": "",
+				"types": "",
+				"company_id": [{
+					"company_name": "Aristo",
+					"brand_id": ["5a68a2edc649871b28fc86c0", "5a68a38dc649871b28fc86d0"]
+				}],
+				"dosage_id": [{
+					"dosage_form": "Tablet",
+					"strength_id": ["5a68a2edc649871b28fc86be"]
+				}],
+				"primarily_used_for": [""]
+			}],
+			"potent_substance": {
+				"molecule_strength": ["100 mg"],
+				"name": ["Aceclofenac"]
+			}
+		}
+	}]
+}
+
+
+
+
+ */
