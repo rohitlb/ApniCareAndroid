@@ -330,517 +330,485 @@ here molecules = Aceclofenac
 
 //combination
 /*
+
+search = Acetylcysteine
 hit /formolecule
 keys molecule , nskip ,page
 page means you want  combination
 
 
-
 {
 	"message": "molecule combination",
 	"data": [{
-		"strength": "1000",
-		"strength_unit": "mg",
-		"packaging": "100 ml",
-		"price": "257.13",
-		"dose_taken": "Empty Food",
-		"dose_timing": "BD",
-		"warnings": "Not to be used in pregnancy",
-		"prescription": "Needed",
-		"brands_id": [{
-			"brand_name": "AALCETAMOL",
-			"categories": "NSAID`s",
-			"types": "Branded",
-			"company_id": [{
-				"_id": "5a64513ee1609631e8fdf521",
-				"company_name": "Aaltramed Healthcare",
-				"__v": 0,
-				"brand_id": ["5a64513ee1609631e8fdf520"]
-			}],
-			"dosage_id": [{
-				"_id": "5a64513ee1609631e8fdf51f",
-				"dosage_form": "Infusion",
-				"__v": 0,
-				"strength_id": [{
-					"_id": "5a64513ee1609631e8fdf51d",
-					"strength": "1000",
-					"strength_unit": "mg",
-					"packaging": "100 ml",
-					"price": "257.13",
-					"dose_taken": "Empty Food",
-					"dose_timing": "BD",
-					"warnings": "Not to be used in pregnancy",
-					"prescription": "Needed",
-					"__v": 0,
-					"brands_id": ["5a64513ee1609631e8fdf520"],
-					"potent_substance": [{
-						"name": "Aceclofenac",
-						"molecule_strength": "1000 mg",
-						"_id": "5a64513ee1609631e8fdf51e"
-					}]
-				}]
-			}],
-			"primarily_used_for": ["Joint Pain"]
-		}],
-		"potent_substance": [{
-			"name": "Aceclofenac",
-			"molecule_strength": "1000 mg"
-		}]
-	}, {
-		"strength": "100",
-		"strength_unit": "mg",
-		"packaging": "10",
-		"price": "30",
+		"strength": "10",
+		"strength_unit": "",
+		"packaging": "1",
+		"price": "140.00",
 		"dose_taken": "",
 		"dose_timing": "",
 		"warnings": "",
 		"prescription": "",
 		"brands_id": [{
-			"brand_name": "ZERODOL",
-			"categories": "NSAID`s",
+			"brand_name": "ACEDRIL FORTE",
+			"categories": "Mucolytic Agent",
 			"types": "",
 			"company_id": [{
-				"_id": "5a6451f5e1609631e8fdf526",
-				"company_name": "Ipca",
+				"_id": "5a68a075c649871b28fc8694",
+				"company_name": "Intra Labs",
 				"__v": 0,
-				"brand_id": ["5a6451f5e1609631e8fdf525", "5a6456c7e1609631e8fdf552"]
+				"brand_id": ["5a68a075c649871b28fc8693"]
 			}],
 			"dosage_id": [{
-				"_id": "5a6451f5e1609631e8fdf524",
-				"dosage_form": "Tablet",
+				"_id": "5a68a075c649871b28fc8692",
+				"dosage_form": "Tab",
 				"__v": 0,
 				"strength_id": [{
-					"_id": "5a6451f5e1609631e8fdf522",
-					"strength": "100",
-					"strength_unit": "mg",
-					"packaging": "10",
-					"price": "30",
+					"_id": "5a68a075c649871b28fc8691",
+					"strength": "10",
+					"strength_unit": "",
+					"packaging": "1",
+					"price": "140.00",
 					"dose_taken": "",
 					"dose_timing": "",
 					"warnings": "",
 					"prescription": "",
 					"__v": 0,
-					"brands_id": ["5a6451f5e1609631e8fdf525"],
-					"potent_substance": [{
-						"name": "Aceclofenac",
-						"molecule_strength": "100 mg",
-						"_id": "5a6451f5e1609631e8fdf523"
-					}]
-				}]
-			}, {
-				"_id": "5a64523de1609631e8fdf52e",
-				"dosage_form": "Injection",
-				"__v": 0,
-				"strength_id": [{
-					"_id": "5a64523de1609631e8fdf52c",
-					"strength_unit": "mg",
-					"packaging": "1 ml",
-					"price": "15",
-					"dose_taken": "",
-					"dose_timing": "",
-					"warnings": "",
-					"prescription": "",
-					"__v": 0,
-					"brands_id": ["5a6451f5e1609631e8fdf525"],
-					"potent_substance": [{
-						"name": "Aceclofenac",
-						"molecule_strength": "150 mg",
-						"_id": "5a64523de1609631e8fdf52d"
-					}]
-				}, {
-					"_id": "5a645666e1609631e8fdf54d",
-					"strength_unit": "mg",
-					"packaging": "1ml",
-					"price": "4.76",
-					"dose_taken": "",
-					"dose_timing": "",
-					"warnings": "",
-					"prescription": "",
-					"__v": 0,
-					"brands_id": ["5a64563fe1609631e8fdf54b"],
-					"potent_substance": [{
-						"name": "Pentazocine",
-						"molecule_strength": "-",
-						"_id": "5a645666e1609631e8fdf54e"
-					}]
-				}]
-			}],
-			"primarily_used_for": [""]
-		}],
-		"potent_substance": [{
-			"name": "Aceclofenac",
-			"molecule_strength": "100 mg"
-		}]
-	}, {
-		"strength_unit": "mg",
-		"packaging": "1 ml",
-		"price": "15",
-		"dose_taken": "",
-		"dose_timing": "",
-		"warnings": "",
-		"prescription": "",
-		"brands_id": [{
-			"brand_name": "ZERODOL",
-			"categories": "NSAID`s",
-			"types": "",
-			"company_id": [{
-				"_id": "5a6451f5e1609631e8fdf526",
-				"company_name": "Ipca",
-				"__v": 0,
-				"brand_id": ["5a6451f5e1609631e8fdf525", "5a6456c7e1609631e8fdf552"]
-			}],
-			"dosage_id": [{
-				"_id": "5a6451f5e1609631e8fdf524",
-				"dosage_form": "Tablet",
-				"__v": 0,
-				"strength_id": [{
-					"_id": "5a6451f5e1609631e8fdf522",
-					"strength": "100",
-					"strength_unit": "mg",
-					"packaging": "10",
-					"price": "30",
-					"dose_taken": "",
-					"dose_timing": "",
-					"warnings": "",
-					"prescription": "",
-					"__v": 0,
-					"brands_id": ["5a6451f5e1609631e8fdf525"],
-					"potent_substance": [{
-						"name": "Aceclofenac",
-						"molecule_strength": "100 mg",
-						"_id": "5a6451f5e1609631e8fdf523"
-					}]
-				}]
-			}, {
-				"_id": "5a64523de1609631e8fdf52e",
-				"dosage_form": "Injection",
-				"__v": 0,
-				"strength_id": [{
-					"_id": "5a64523de1609631e8fdf52c",
-					"strength_unit": "mg",
-					"packaging": "1 ml",
-					"price": "15",
-					"dose_taken": "",
-					"dose_timing": "",
-					"warnings": "",
-					"prescription": "",
-					"__v": 0,
-					"brands_id": ["5a6451f5e1609631e8fdf525"],
-					"potent_substance": [{
-						"name": "Aceclofenac",
-						"molecule_strength": "150 mg",
-						"_id": "5a64523de1609631e8fdf52d"
-					}]
-				}, {
-					"_id": "5a645666e1609631e8fdf54d",
-					"strength_unit": "mg",
-					"packaging": "1ml",
-					"price": "4.76",
-					"dose_taken": "",
-					"dose_timing": "",
-					"warnings": "",
-					"prescription": "",
-					"__v": 0,
-					"brands_id": ["5a64563fe1609631e8fdf54b"],
-					"potent_substance": [{
-						"name": "Pentazocine",
-						"molecule_strength": "-",
-						"_id": "5a645666e1609631e8fdf54e"
-					}]
-				}]
-			}],
-			"primarily_used_for": [""]
-		}],
-		"potent_substance": [{
-			"name": "Aceclofenac",
-			"molecule_strength": "150 mg"
-		}]
-	}, {
-		"strength_unit": "mg",
-		"packaging": "10",
-		"price": "50",
-		"dose_taken": "",
-		"dose_timing": "",
-		"warnings": "",
-		"prescription": "",
-		"brands_id": [{
-			"brand_name": "ZERODOL CR",
-			"categories": "NSAID`s",
-			"types": "",
-			"company_id": [{
-				"_id": "5a6451f5e1609631e8fdf526",
-				"company_name": "Ipca",
-				"__v": 0,
-				"brand_id": ["5a6451f5e1609631e8fdf525", "5a6456c7e1609631e8fdf552"]
-			}],
-			"dosage_id": [{
-				"_id": "5a6456c7e1609631e8fdf551",
-				"dosage_form": "Tablet",
-				"__v": 0,
-				"strength_id": [{
-					"_id": "5a6456c7e1609631e8fdf54f",
-					"strength_unit": "mg",
-					"packaging": "10",
-					"price": "50",
-					"dose_taken": "",
-					"dose_timing": "",
-					"warnings": "",
-					"prescription": "",
-					"__v": 0,
-					"brands_id": ["5a6456c7e1609631e8fdf552"],
+					"brands_id": ["5a68a075c649871b28fc8693"],
 					"potent_substance": {
-						"name": "Aceclofenac",
-						"molecule_strength": "200 mg",
-						"_id": "5a6456c7e1609631e8fdf550"
-					},
+						"molecule_strength": ["600 mg", "100 mg"],
+						"name": ["Acetylcysteine", "Acebrophylline"]
+					}
+				}]
 			}],
 			"primarily_used_for": [""]
 		}],
-		"potent_substance": [{
-			"name": "Aceclofenac",
-			"molecule_strength": "200 mg"
-		}]
+		"potent_substance": {
+			"molecule_strength": ["600 mg", "100 mg"],
+			"name": ["Acetylcysteine", "Acebrophylline"]
+		}
 	}, {
-		"strength": "100",
+		"strength": "10",
 		"strength_unit": "mg",
-		"packaging": "10",
-		"price": "17.90",
+		"packaging": "1",
+		"price": "126.00",
 		"dose_taken": "",
 		"dose_timing": "",
 		"warnings": "",
 		"prescription": "",
 		"brands_id": [{
-			"brand_name": "ZIX",
-			"categories": "NSAID`s",
+			"brand_name": "BRIOVENT TAB",
+			"categories": "Mucolytic Agent",
 			"types": "",
 			"company_id": [{
-				"_id": "5a645723e1609631e8fdf55b",
-				"company_name": "Jenburkt",
+				"_id": "5a68a168c649871b28fc8698",
+				"company_name": "Brio Bliss",
 				"__v": 0,
-				"brand_id": ["5a645723e1609631e8fdf55a"]
+				"brand_id": ["5a68a168c649871b28fc8697"]
 			}],
 			"dosage_id": [{
-				"_id": "5a645723e1609631e8fdf559",
-				"dosage_form": "Tablet",
+				"_id": "5a68a168c649871b28fc8696",
+				"dosage_form": "Tab",
 				"__v": 0,
 				"strength_id": [{
-					"_id": "5a645723e1609631e8fdf557",
-					"strength": "100",
+					"_id": "5a68a168c649871b28fc8695",
+					"strength": "10",
 					"strength_unit": "mg",
-					"packaging": "10",
-					"price": "17.90",
+					"packaging": "1",
+					"price": "126.00",
 					"dose_taken": "",
 					"dose_timing": "",
 					"warnings": "",
 					"prescription": "",
 					"__v": 0,
-					"brands_id": ["5a645723e1609631e8fdf55a"],
-					"potent_substance": [{
-						"name": "Aceclofenac",
-						"molecule_strength": "100 mg",
-						"_id": "5a645723e1609631e8fdf558"
-					}]
+					"brands_id": ["5a68a168c649871b28fc8697"],
+					"potent_substance": {
+						"molecule_strength": ["600 mg", "100 mg"],
+						"name": ["Acetylcysteine", "Acebrophylline"]
+					}
 				}]
 			}],
 			"primarily_used_for": [""]
 		}],
-		"potent_substance": [{
-			"name": "Aceclofenac",
-			"molecule_strength": "100 mg"
-		}]
+		"potent_substance": {
+			"molecule_strength": ["600 mg", "100 mg"],
+			"name": ["Acetylcysteine", "Acebrophylline"]
+		}
 	}, {
-		"strength": "200",
+		"strength": "10",
 		"strength_unit": "mg",
-		"packaging": "10",
-		"price": "46",
+		"packaging": "1",
+		"price": "115.00",
 		"dose_taken": "",
 		"dose_timing": "",
 		"warnings": "",
 		"prescription": "",
 		"brands_id": [{
-			"brand_name": "ABATE",
-			"categories": "NSAID`s",
+			"brand_name": "EFFENAC-AB",
+			"categories": "Mucolytic Agent",
 			"types": "",
 			"company_id": [{
-				"_id": "5a645772e1609631e8fdf560",
-				"company_name": "Genesis",
+				"_id": "5a68a1e3c649871b28fc86a8",
+				"company_name": "Macleods (TB Care)",
 				"__v": 0,
-				"brand_id": ["5a645772e1609631e8fdf55f", "5a645bdbe1609631e8fdf5b8"]
+				"brand_id": ["5a68a1e3c649871b28fc86a7"]
 			}],
 			"dosage_id": [{
-				"_id": "5a645772e1609631e8fdf55e",
-				"dosage_form": "Tablet",
+				"_id": "5a68a1e3c649871b28fc86a6",
+				"dosage_form": "Tab",
 				"__v": 0,
 				"strength_id": [{
-					"_id": "5a645772e1609631e8fdf55c",
-					"strength": "200",
+					"_id": "5a68a1e3c649871b28fc86a5",
+					"strength": "10",
 					"strength_unit": "mg",
-					"packaging": "10",
-					"price": "46",
+					"packaging": "1",
+					"price": "115.00",
 					"dose_taken": "",
 					"dose_timing": "",
 					"warnings": "",
 					"prescription": "",
 					"__v": 0,
-					"brands_id": ["5a645772e1609631e8fdf55f"],
-					"potent_substance": [{
-						"name": "Aceclofenac",
-						"molecule_strength": "200 mg",
-						"_id": "5a645772e1609631e8fdf55d"
-					}]
+					"brands_id": ["5a68a1e3c649871b28fc86a7"],
+					"potent_substance": {
+						"molecule_strength": ["600 mg"],
+						"name": ["Acetylcysteine"]
+					}
 				}]
 			}],
 			"primarily_used_for": [""]
 		}],
-		"potent_substance": [{
-			"name": "Aceclofenac",
-			"molecule_strength": "200 mg"
-		}]
+		"potent_substance": {
+			"molecule_strength": ["600 mg"],
+			"name": ["Acetylcysteine"]
+		}
 	}, {
-		"strength": "100",
+		"strength": "10",
 		"strength_unit": "mg",
-		"packaging": "10",
-		"price": "35",
+		"packaging": "1",
+		"price": "55.00",
 		"dose_taken": "",
 		"dose_timing": "",
 		"warnings": "",
 		"prescription": "",
 		"brands_id": [{
-			"brand_name": "AC",
-			"categories": "NSAID`s",
+			"brand_name": "AMBIAC-N",
+			"categories": "Mucolytic Agent",
 			"types": "",
 			"company_id": [{
-				"_id": "5a6457d5e1609631e8fdf569",
-				"company_name": "MMC Health",
+				"_id": "5a68a253c649871b28fc86b4",
+				"company_name": "Esma",
 				"__v": 0,
-				"brand_id": ["5a6457d5e1609631e8fdf567"]
+				"brand_id": ["5a68a253c649871b28fc86b3"]
 			}],
 			"dosage_id": [{
-				"_id": "5a6457d5e1609631e8fdf565",
-				"dosage_form": "Tablet",
+				"_id": "5a68a253c649871b28fc86b2",
+				"dosage_form": "Tab",
 				"__v": 0,
 				"strength_id": [{
-					"_id": "5a6457d5e1609631e8fdf561",
-					"strength": "100",
+					"_id": "5a68a251c649871b28fc86b1",
+					"strength": "10",
 					"strength_unit": "mg",
-					"packaging": "10",
-					"price": "35",
+					"packaging": "1",
+					"price": "55.00",
 					"dose_taken": "",
 					"dose_timing": "",
 					"warnings": "",
 					"prescription": "",
 					"__v": 0,
-					"brands_id": ["5a6457d5e1609631e8fdf567"],
-					"potent_substance": [{
-						"name": "Aceclofenac",
-						"molecule_strength": "100 mg",
-						"_id": "5a6457d5e1609631e8fdf562"
-					}]
+					"brands_id": ["5a68a253c649871b28fc86b3"],
+					"potent_substance": {
+						"molecule_strength": ["30 mg", "300 mg"],
+						"name": ["Ambroxol", "Acetylcysteine"]
+					}
 				}]
 			}],
 			"primarily_used_for": [""]
 		}],
-		"potent_substance": [{
-			"name": "Aceclofenac",
-			"molecule_strength": "100 mg"
-		}]
+		"potent_substance": {
+			"molecule_strength": ["30 mg", "300 mg"],
+			"name": ["Ambroxol", "Acetylcysteine"]
+		}
 	}, {
-		"strength": "200",
+		"strength": "10",
 		"strength_unit": "mg",
-		"packaging": "10",
-		"price": "60",
+		"packaging": "1",
+		"price": "50.00",
 		"dose_taken": "",
 		"dose_timing": "",
 		"warnings": "",
 		"prescription": "",
 		"brands_id": [{
-			"brand_name": "ACCEPT",
-			"categories": "NSAID`s",
+			"brand_name": "VENTIREX-A",
+			"categories": "Mucolytic Agent",
 			"types": "",
 			"company_id": [{
-				"_id": "5a6458e3e1609631e8fdf583",
-				"company_name": "Vivid Labs",
+				"_id": "5a68a2bdc649871b28fc86bd",
+				"company_name": "Unimarck",
 				"__v": 0,
-				"brand_id": ["5a6458e3e1609631e8fdf582"]
+				"brand_id": ["5a68a2bdc649871b28fc86bc"]
 			}],
 			"dosage_id": [{
-				"_id": "5a6458e3e1609631e8fdf581",
-				"dosage_form": "Tablet",
+				"_id": "5a68a2bdc649871b28fc86bb",
+				"dosage_form": "Tab",
 				"__v": 0,
 				"strength_id": [{
-					"_id": "5a6458e3e1609631e8fdf57f",
-					"strength": "200",
+					"_id": "5a68a2bdc649871b28fc86ba",
+					"strength": "10",
 					"strength_unit": "mg",
-					"packaging": "10",
-					"price": "60",
+					"packaging": "1",
+					"price": "50.00",
 					"dose_taken": "",
 					"dose_timing": "",
 					"warnings": "",
 					"prescription": "",
 					"__v": 0,
-					"brands_id": ["5a6458e3e1609631e8fdf582"],
-					"potent_substance": [{
-						"name": "Aceclofenac",
-						"molecule_strength": "200 mg",
-						"_id": "5a6458e3e1609631e8fdf580"
-					}]
+					"brands_id": ["5a68a2bdc649871b28fc86bc"],
+					"potent_substance": {
+						"molecule_strength": ["30 mg", "300 mg"],
+						"name": ["Ambroxol", "Acetylcysteine"]
+					}
 				}]
 			}],
 			"primarily_used_for": [""]
 		}],
-		"potent_substance": [{
-			"name": "Aceclofenac",
-			"molecule_strength": "200 mg"
-		}]
+		"potent_substance": {
+			"molecule_strength": ["30 mg", "300 mg"],
+			"name": ["Ambroxol", "Acetylcysteine"]
+		}
 	}, {
-		"strength": "100",
+		"strength": "10",
 		"strength_unit": "mg",
-		"packaging": "10",
-		"price": "35.58",
+		"packaging": "1",
+		"price": "52.48",
 		"dose_taken": "",
 		"dose_timing": "",
 		"warnings": "",
 		"prescription": "",
 		"brands_id": [{
-			"brand_name": "ACEZ",
-			"categories": "NSAID`s",
+			"brand_name": "NACIVENT",
+			"categories": "Mucolytic Agent",
 			"types": "",
 			"company_id": [{
-				"_id": "5a64593de1609631e8fdf592",
-				"company_name": "Crest Pharma",
+				"_id": "5a68a314c649871b28fc86c5",
+				"company_name": "Satven And Mer",
 				"__v": 0,
-				"brand_id": ["5a64593de1609631e8fdf591"]
+				"brand_id": ["5a68a314c649871b28fc86c4"]
 			}],
 			"dosage_id": [{
-				"_id": "5a64593de1609631e8fdf590",
-				"dosage_form": "Tablet",
+				"_id": "5a68a314c649871b28fc86c3",
+				"dosage_form": "Tab",
 				"__v": 0,
 				"strength_id": [{
-					"_id": "5a64593de1609631e8fdf58e",
-					"strength": "100",
+					"_id": "5a68a314c649871b28fc86c2",
+					"strength": "10",
 					"strength_unit": "mg",
-					"packaging": "10",
-					"price": "35.58",
+					"packaging": "1",
+					"price": "52.48",
 					"dose_taken": "",
 					"dose_timing": "",
 					"warnings": "",
 					"prescription": "",
 					"__v": 0,
-					"brands_id": ["5a64593de1609631e8fdf591"],
-					"potent_substance": [{
-						"name": "Aceclofenac",
-						"molecule_strength": "100 mg",
-						"_id": "5a64593de1609631e8fdf58f"
-					}]
+					"brands_id": ["5a68a314c649871b28fc86c4"],
+					"potent_substance": {
+						"molecule_strength": ["30 mg", "200 mg"],
+						"name": ["Ambroxol", "Acetylcysteine"]
+					}
 				}]
 			}],
 			"primarily_used_for": [""]
 		}],
-		"potent_substance": [{
-			"name": "Aceclofenac",
-			"molecule_strength": "100 mg"
-		}]
+		"potent_substance": {
+			"molecule_strength": ["30 mg", "200 mg"],
+			"name": ["Ambroxol", "Acetylcysteine"]
+		}
+	}, {
+		"strength": "10",
+		"strength_unit": "mg",
+		"packaging": "1",
+		"price": "114.91",
+		"dose_taken": "",
+		"dose_timing": "",
+		"warnings": "",
+		"prescription": "",
+		"brands_id": [{
+			"brand_name": "EB MAX",
+			"categories": "Mucolytic Agent",
+			"types": "",
+			"company_id": [{
+				"_id": "5a68a394c649871b28fc86d4",
+				"company_name": "MMC",
+				"__v": 0,
+				"brand_id": ["5a68a394c649871b28fc86d3"]
+			}],
+			"dosage_id": [{
+				"_id": "5a68a394c649871b28fc86d2",
+				"dosage_form": "Tab",
+				"__v": 0,
+				"strength_id": [{
+					"_id": "5a68a394c649871b28fc86d1",
+					"strength": "10",
+					"strength_unit": "mg",
+					"packaging": "1",
+					"price": "114.91",
+					"dose_taken": "",
+					"dose_timing": "",
+					"warnings": "",
+					"prescription": "",
+					"__v": 0,
+					"brands_id": ["5a68a394c649871b28fc86d3"],
+					"potent_substance": {
+						"molecule_strength": ["10 mg", "10 mg"],
+						"name": ["Acetylcysteine", "Acebrophylline"]
+					}
+				}]
+			}],
+			"primarily_used_for": [""]
+		}],
+		"potent_substance": {
+			"molecule_strength": ["10 mg", "10 mg"],
+			"name": ["Acetylcysteine", "Acebrophylline"]
+		}
+	}, {
+		"strength": "10",
+		"strength_unit": "mg",
+		"packaging": "1",
+		"price": "140.00",
+		"dose_taken": "",
+		"dose_timing": "",
+		"warnings": "",
+		"prescription": "",
+		"brands_id": [{
+			"brand_name": "ENCC",
+			"categories": "Mucolytic Agent",
+			"types": "",
+			"company_id": [{
+				"_id": "5a68a4b3c649871b28fc86e4",
+				"company_name": "Shield",
+				"__v": 0,
+				"brand_id": ["5a68a4b3c649871b28fc86e3", "5a68a635c649871b28fc86f8"]
+			}],
+			"dosage_id": [{
+				"_id": "5a68a4b3c649871b28fc86e2",
+				"dosage_form": "Tab",
+				"__v": 0,
+				"strength_id": [{
+					"_id": "5a68a4b3c649871b28fc86e1",
+					"strength": "10",
+					"strength_unit": "mg",
+					"packaging": "1",
+					"price": "140.00",
+					"dose_taken": "",
+					"dose_timing": "",
+					"warnings": "",
+					"prescription": "",
+					"__v": 0,
+					"brands_id": ["5a68a4b3c649871b28fc86e3"],
+					"potent_substance": {
+						"molecule_strength": ["600 mg", "50 mg"],
+						"name": ["Acetylcysteine", "Clomiphene"]
+					}
+				}]
+			}],
+			"primarily_used_for": [""]
+		}],
+		"potent_substance": {
+			"molecule_strength": ["600 mg", "50 mg"],
+			"name": ["Acetylcysteine", "Clomiphene"]
+		}
+	}, {
+		"strength": "5",
+		"strength_unit": "mg",
+		"packaging": "1",
+		"price": "90.00",
+		"dose_taken": "",
+		"dose_timing": "",
+		"warnings": "",
+		"prescription": "",
+		"brands_id": [{
+			"brand_name": "OVANAC CC",
+			"categories": "Mucolytic Agent",
+			"types": "",
+			"company_id": [{
+				"_id": "5a68a530c649871b28fc86e8",
+				"company_name": "Nexgen Rx Lifescience",
+				"__v": 0,
+				"brand_id": ["5a68a530c649871b28fc86e7"]
+			}],
+			"dosage_id": [{
+				"_id": "5a68a530c649871b28fc86e6",
+				"dosage_form": "Tab",
+				"__v": 0,
+				"strength_id": [{
+					"_id": "5a68a52ec649871b28fc86e5",
+					"strength": "5",
+					"strength_unit": "mg",
+					"packaging": "1",
+					"price": "90.00",
+					"dose_taken": "",
+					"dose_timing": "",
+					"warnings": "",
+					"prescription": "",
+					"__v": 0,
+					"brands_id": ["5a68a530c649871b28fc86e7"],
+					"potent_substance": {
+						"molecule_strength": ["600 mg", "50 mg"],
+						"name": ["Acetylcysteine", "Clomiphene"]
+					}
+				}]
+			}],
+			"primarily_used_for": [""]
+		}],
+		"potent_substance": {
+			"molecule_strength": ["600 mg", "50 mg"],
+			"name": ["Acetylcysteine", "Clomiphene"]
+		}
+	}, {
+		"strength": "1",
+		"strength_unit": "mg",
+		"packaging": "1",
+		"price": "499.00",
+		"dose_taken": "",
+		"dose_timing": "",
+		"warnings": "",
+		"prescription": "",
+		"brands_id": [{
+			"brand_name": "FEOFER OVA",
+			"categories": "Mucolytic Agent",
+			"types": "",
+			"company_id": [{
+				"_id": "5a68a5b5c649871b28fc86f5",
+				"company_name": "Alna Bio",
+				"__v": 0,
+				"brand_id": ["5a68a5b5c649871b28fc86f4"]
+			}],
+			"dosage_id": [{
+				"_id": "5a68a5b5c649871b28fc86f3",
+				"dosage_form": "Tab",
+				"__v": 0,
+				"strength_id": [{
+					"_id": "5a68a5b5c649871b28fc86f2",
+					"strength": "1",
+					"strength_unit": "mg",
+					"packaging": "1",
+					"price": "499.00",
+					"dose_taken": "",
+					"dose_timing": "",
+					"warnings": "",
+					"prescription": "",
+					"__v": 0,
+					"brands_id": ["5a68a5b5c649871b28fc86f4"],
+					"potent_substance": {
+						"molecule_strength": ["50 mg", "600 mg", "4 mg"],
+						"name": ["Clomiphene", "Acetylcysteine", "Astaxanthin"]
+					}
+				}]
+			}],
+			"primarily_used_for": [""]
+		}],
+		"potent_substance": {
+			"molecule_strength": ["50 mg", "600 mg", "4 mg"],
+			"name": ["Clomiphene", "Acetylcysteine", "Astaxanthin"]
+		}
 	}]
 }
-
 */
