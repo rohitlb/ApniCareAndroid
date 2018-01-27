@@ -48,7 +48,6 @@ String lines[] = string.split("\\r?\\n");
 }
  */
 
-
 //brands
 /*
 hit /formolecule
@@ -814,7 +813,6 @@ page means you want  combination
 */
 
 //similarbrands
-
 /*
 hit to /similarbrands
 molecule = Aceclofenac
@@ -947,5 +945,41 @@ nskip = marzi bhai jo rakhle
 
 
 
+
+ */
+
+//readmore
+/*
+hit /readmore
+brand:FLUIMUCIL
+
+{
+	"message": "read more",
+	"data": [{
+		"brand_name": "FLUIMUCIL",
+		"categories": "mucolytic agent",
+		"types": "",
+		"company_id": [{
+			"company_name": "Modi Mundi"
+		}],
+		"dosage_id": [{
+			"dosage_form": "Powder",
+			"strength_id": [{
+				"strength": "100mg",
+				"packaging": "3g",
+				"price": "11.23",
+				"dose_taken": "",
+				"dose_timing": "",
+				"warnings": "",
+				"prescription": "",
+				"potent_substance": {
+					"molecule_strength": ["100mg"],
+					"name": ["Acetylcycteine"]
+				}
+			}]
+		}],
+		"primarily_used_for": [""]
+	}]
+}
 
  */
