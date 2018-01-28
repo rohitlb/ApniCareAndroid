@@ -1,4 +1,4 @@
-//information
+//information for  molecule
 /*
 hit /formolecule
 keys molecule , nskip ,page
@@ -983,3 +983,44 @@ brand:FLUIMUCIL
 }
 
  */
+
+//information for  brand
+/*
+hit to /brandinfo
+brand : FLUIMUCIL
+
+
+output
+
+{
+	"message": "brandinfo",
+	"data": [{
+		"brand_name": "FLUIMUCIL",
+		"categories": "mucolytic agent",
+		"types": "",
+		"company_id": [{
+			"company_name": "Modi Mundi"
+		}],
+		"dosage_id": [{
+			"dosage_form": "Powder",
+			"strength_id": [{
+				"strength": "100mg",
+				"packaging": "3g",
+				"price": "11.23",
+				"dose_taken": "",
+				"dose_timing": "",
+				"warnings": "",
+				"prescription": "",
+				"potent_substance": {
+					"molecule_strength": ["100mg"],
+					"name": ["Acetylcycteine"]
+				}
+			}]
+		}],
+		"primarily_used_for": [""]
+	}]
+}
+
+
+ */
+
