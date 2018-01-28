@@ -978,7 +978,7 @@ brand:FLUIMUCIL
 				}
 			}]
 		}],
-		"primarily_used_for": [""]
+		"primarily_used_for": ["A","B","C"]
 	}]
 }
 
