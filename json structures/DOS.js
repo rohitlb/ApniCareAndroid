@@ -29,7 +29,6 @@ page : disease
 	}]
 }
 
-
  */
 
 
