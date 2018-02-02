@@ -2,9 +2,6 @@
 /*
 hit to /moleculeslist
 
-
-
-
 {
 	"message": "molecules list",
 	"data": [{
@@ -24,9 +21,11 @@ hit to /moleculeslist
 
  */
 
-// brand list
+// brand list 1050
+
+//hit to /brandslist
+
 /*
-hit to /brandslist
 
 
 {
@@ -41,7 +40,10 @@ hit to /brandslist
 			"strength_id": [{
 				"strength": "1",
 				"packaging": "1",
-				"price": "1"
+				"price": "1",
+				"potent_substance": [{
+					"name": "1"
+				}]
 			}]
 		}]
 	}, {
@@ -52,7 +54,10 @@ hit to /brandslist
 			"strength_id": [{
 				"strength": "a",
 				"packaging": "a",
-				"price": "a"
+				"price": "a",
+				"potent_substance": {
+					"name": []
+				}
 			}]
 		}]
 	}, {
@@ -65,7 +70,10 @@ hit to /brandslist
 			"strength_id": [{
 				"strength": "b",
 				"packaging": "b",
-				"price": "b"
+				"price": "b",
+				"potent_substance": [{
+					"name": "b"
+				}]
 			}]
 		}]
 	}, {
@@ -77,7 +85,8 @@ hit to /brandslist
 			"dosage_form": "kajc",
 			"strength_id": [{
 				"packaging": "askjcnscj",
-				"price": "1000"
+				"price": "1000",
+				"potent_substance": [null]
 			}]
 		}]
 	}, {
@@ -90,7 +99,8 @@ hit to /brandslist
 			"strength_id": [{
 				"strength": "d",
 				"packaging": "d",
-				"price": "d"
+				"price": "d",
+				"potent_substance": [null]
 			}]
 		}]
 	}, {
@@ -103,7 +113,10 @@ hit to /brandslist
 			"strength_id": [{
 				"strength": "e",
 				"packaging": "e",
-				"price": "100"
+				"price": "100",
+				"potent_substance": [{
+					"name": "e,q"
+				}]
 			}]
 		}]
 	}, {
@@ -116,7 +129,10 @@ hit to /brandslist
 			"strength_id": [{
 				"strength": "g",
 				"packaging": "g",
-				"price": "g"
+				"price": "g",
+				"potent_substance": [{
+					"name": "g"
+				}]
 			}]
 		}]
 	}, {
@@ -129,7 +145,10 @@ hit to /brandslist
 			"strength_id": [{
 				"strength": "j",
 				"packaging": "j",
-				"price": "j"
+				"price": "j",
+				"potent_substance": [{
+					"name": "jj"
+				}]
 			}]
 		}]
 	}, {
@@ -142,7 +161,10 @@ hit to /brandslist
 			"strength_id": [{
 				"strength": "m",
 				"packaging": "m",
-				"price": "m"
+				"price": "m",
+				"potent_substance": [{
+					"name": "m"
+				}]
 			}]
 		}]
 	}, {
@@ -155,14 +177,14 @@ hit to /brandslist
 			"strength_id": [{
 				"strength": "w",
 				"packaging": "w",
-				"price": "1000"
+				"price": "1000",
+				"potent_substance": [{
+					"name": "w"
+				}]
 			}]
 		}]
 	}]
 }
-
-
-
  */
 
 
@@ -183,5 +205,13 @@ hit to /diseaseslist
 		"disease_name": "d"
 	}]
 }
+
+ */
+
+// organslist
+
+/*
+
+
 
  */
