@@ -22,12 +22,8 @@ hit to /moleculeslist
  */
 
 // brand list 1050
-
 //hit to /brandslist
-
 /*
-
-
 {
 	"status": "brands list",
 	"data": [{
@@ -209,9 +205,45 @@ hit to /diseaseslist
  */
 
 // organslist
-
 /*
-
-
+{
+	"message": "organs list",
+	"data": [{
+		"organs": {
+			"subhead": ["a", "b", "c"]
+		}
+	}, {
+		"organs": {
+			"subhead": ["b"]
+		}
+	}, {
+		"organs": {
+			"subhead": ["c"]
+		}
+	}, {
+		"organs": {
+			"subhead": ["d"]
+		}
+	}]
+}
 
  */
+
+// symptomslist
+/*
+{
+	"message": "symptoms list",
+	"data": [{
+		"symptoms": "a"
+	}, {
+		"symptoms": "b"
+	}, {
+		"symptoms": "c"
+	}, {
+		"symptoms": "d"
+	}]
+}
+
+ */
+
+//
