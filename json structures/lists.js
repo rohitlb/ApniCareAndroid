@@ -246,4 +246,22 @@ hit to /diseaseslist
 
  */
 
-//
+// /symptomslist
+
+/*
+{
+	"message": "symptoms list",
+	"data": [{
+		"symptoms": "a"
+	}, {
+		"symptoms": "b"
+	}, {
+		"symptoms": "c"
+	}, {
+		"symptoms": "d"
+	}]
+}
+
+
+
+ */
